@@ -1,0 +1,54 @@
+swiper {
+  height: 320rpx;
+}
+swiper image {
+  height: 320rpx;
+  width: 750rpx;
+}
+/* 活动标题 */
+.title{
+  font-size:28rpx;
+  color: #3c3c3c;
+  background-color: pink;
+  line-height: 1;
+  padding: 20rpx 30rpx;
+  font-weight: 600;
+}
+/* 活动列表 */
+.item {
+  margin-bottom: 20rpx;
+}
+
+.item image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.item .info {
+  height: 180rpx;
+  padding: 16rpx 130rpx 20rpx 30rpx;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+}
+
+.item .info .name {
+  font-size: 30rpx;
+  color: #3C3C3C;
+}
+
+.item .info .extra {
+  font-size: 22rpx;
+  color: #B4B4B4;
+  position: absolute;
+  bottom: 20rpx;
+}
+
+.item .info .status {
+  font-size: 30rpx;
+  color: #FE6249;
+
+  position: absolute;
+  right: 30rpx;
+  top: 14rpx;
+}

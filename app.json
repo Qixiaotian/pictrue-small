@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "游戏乐园",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "backgroundColor":"#fec449",
+    "color":"#d78809",
+    "selectedColor":"#fff",
+    "list":[
+      {"text":"首页",
+      "iconPath":"icons/cards-default.png",
+      "selectedIconPath":"icons/cards-active.png",
+      "pagePath":"pages/index/index"
+      },
+      {"text":"卡券",
+      "iconPath":"icons/face-default.png",
+      "selectedIconPath": "icons/face-active.png",
+      "pagePath":"pages/index/index"
+      },
+      {
+      "text": "我的",
+      "iconPath": "icons/home-default.png",
+      "selectedIconPath": "icons/home-active.png",
+      "pagePath": "pages/index/index"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
