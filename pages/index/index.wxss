@@ -5,11 +5,14 @@ swiper image {
   height: 320rpx;
   width: 750rpx;
 }
+page{
+  background-color: #ccc;
+}
 /* 活动标题 */
 .title{
   font-size:28rpx;
   color: #3c3c3c;
-  background-color: pink;
+  background-color:white;
   line-height: 1;
   padding: 20rpx 30rpx;
   font-weight: 600;
@@ -47,7 +50,6 @@ swiper image {
 .item .info .status {
   font-size: 30rpx;
   color: #FE6249;
-
   position: absolute;
   right: 30rpx;
   top: 14rpx;

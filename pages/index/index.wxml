@@ -1,17 +1,17 @@
-<!--index.wxml-->
+<!-- index.wxml -->
 <!-- 轮播图的实现 -->
 <swiper indicator-dots indicator-color="rgba(255,255,255,.6)" autoplay interval="3000" circular>
- <swiper-item>
- <image src="../../static/uploads/slide_1.jpg"></image>
+  <swiper-item>
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/slide_1.jpg"></image>
   </swiper-item>
- <swiper-item>
- <image src="../../static/uploads/slide_2.jpg"></image>
+  <swiper-item>
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/slide_2.jpg"></image>
   </swiper-item>
- <swiper-item>
- <image src="../../static/uploads/slide_3.jpg"></image>
+  <swiper-item>
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/slide_3.jpg"></image>
   </swiper-item>
- <swiper-item>
- <image src="../../static/uploads/slide_4.jpg"></image>
+  <swiper-item>
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/slide_4.jpg"></image>
   </swiper-item>
 </swiper>
 <!-- 标题的实现 -->
@@ -19,15 +19,53 @@
 <!-- 封面组件块 -->
 <view class="item">
   <navigator url="../logs/logs">
-    <image src="../../static/uploads/item_1.png"></image>
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/item_1.png"></image>
   </navigator>
   <view class="info">
-
-  <view >疯狂的红包不一样的撕名牌 大型家庭亲自户外活动</view>
-  <view class="extra">
-    <text class="icon-time">200人已报名</text>
-    <text >本周六开始</text>
+    <view>疯狂的红包不一样的撕名牌 大型家庭亲自户外活动</view>
+    <view class="extra">
+      <text class="icon-time">200人已报名</text>
+      <text class="icon-preview">本周六开始</text>
+    </view>
+    <view class="status">免费</view>
   </view>
-  <view class="status">免费</view>
+</view>
+<view class="item">
+  <navigator url="../logs/logs">
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/item_2.png"></image>
+  </navigator>
+  <view class="info">
+    <view>疯狂的红包不一样的撕名牌 大型家庭亲自户外活动</view>
+    <view class="extra">
+      <text class="icon-time">200人已报名</text>
+      <text class="icon-preview">本周六开始</text>
+    </view>
+    <view class="status">免费</view>
+  </view>
+</view>
+<view class="item">
+  <navigator url="../logs/logs">
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/item_3.png"></image>
+  </navigator>
+  <view class="info">
+    <view>疯狂的红包不一样的撕名牌 大型家庭亲自户外活动</view>
+    <view class="extra">
+      <text class="icon-time">200人已报名</text>
+      <text class="icon-preview">本周六开始</text>
+    </view>
+    <view class="status">免费</view>
+  </view>
+</view>
+<view class="item">
+  <navigator url="../logs/logs">
+    <image src="https://qixiaotian.github.io/pictrue-small/static/uploads/item_4.png"></image>
+  </navigator>
+  <view class="info">
+    <view>疯狂的红包不一样的撕名牌 大型家庭亲自户外活动</view>
+    <view class="extra">
+      <text class="icon-time">200人已报名</text>
+      <text class="icon-preview">本周六开始</text>
+    </view>
+    <view class="status">免费</view>
   </view>
 </view>
